@@ -1,0 +1,25 @@
+{
+  "name": "flight-metasearch",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Flight Metasearch Engine MVP — search, compare, and sort flight deals",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "download-airports": "node scripts/download-airports.js"
+  },
+  "dependencies": {
+    "next": "^14.2.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "typescript": "^5.4.0"
+  }
+}
